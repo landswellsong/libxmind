@@ -16,8 +16,9 @@ Design goals
 Dependencies
 ============
 
-* Some zlib
-* Some XML lib
+* zlib $VER
+* libzip $VER
+* libxml2 $VER
 * Something else, huh?
 
 [1]: http://www.xmind.net
