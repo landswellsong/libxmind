@@ -5,4 +5,5 @@ find_package(LibZip REQUIRED)
 find_package(ZLIB REQUIRED)
 find_package(LibXml2 REQUIRED)
 
-
+add_executable(mockup examples/mockup.c)
+target_link_libraries(mockup ${LIBZIP_LIBRARY})
